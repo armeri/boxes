@@ -1,0 +1,61 @@
+*{
+	margin:0;
+	padding: 0;
+	color:white;
+}
+
+
+.header{
+	height:50px;
+	background-color: #52a7f9;
+
+}
+
+
+.container{
+	margin:0 auto;
+	max-width: 1140px;
+	background-color: gainsboro;
+	display:grid;
+	grid-gap:10px;
+}   
+
+
+.main-content{
+	grid-column: 1 / 4;
+	grid-row: 1 / 2;
+	height: 400px;
+	background-color: #6fbf41;
+
+
+}
+
+.sidebar{
+	grid-column: 4;
+	grid-row: 1 / 2;
+	height: 400px;
+	background-color: #b36be2;
+
+}
+
+.twin-one{
+	grid-column: 1 / 3;
+	grid-row: 2;
+	height: 400px;
+	background-color: #f39019;
+
+
+}
+
+.twin-two{
+  grid-column: 3 / 5;
+  grid-row: 2;
+  height: 400px;
+  background-color: #f39019;
+
+}
+
+.footer{
+	height: 50px;
+	background-color: #8065c0;
+}
